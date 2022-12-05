@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>YourPackageName</id>
+    <version>1.0.0</version>
+    <authors>YourName</authors>
+    <owners>YourName</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Your package description.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Appium.WebDriver" version="4.3.1" />
+        <dependency id="Castle.Core" version="4.4.1" />
+        <dependency id="CommonServiceLocation" version="1.0.0" />
+        <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" />
+        <dependency id="Microsoft.AspNet.WebApi.Client.Repacked" version="5.2.3" />
+        <dependency id="Microsoft.CodeAnalysis" version="4.1.0" />
+        <dependency id="Microsoft.Playwright" version="1.26.0" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="Soti.CodeQuality.Settings" version="*" />
+        <dependency id="SpecFlow.NUnit" version="3.9.74" />
+        <dependency id="StrongNamer" version="0.2.5" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" />
+        <dependency id="System.Text.Json" version="6.0.5" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
